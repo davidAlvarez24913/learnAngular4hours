@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
+
+// vincula la lógica a la vista
 export class AppComponent {
-  title = 'store';
+
+  title = 'LearnAngular';
+
+  getName():void{
+    console.log('hola David');
+  }
 }
