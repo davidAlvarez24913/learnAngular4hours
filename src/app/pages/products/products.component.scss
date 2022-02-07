@@ -1,0 +1,18 @@
+
+section.products{
+    display: grid;
+    margin: 4px;
+    grid-template-columns: repeat(auto-fill,minmax(25rem, 1fr));
+    gap: 5px;
+    justify-items: center;
+    .card{
+        margin: 5px;
+        min-height: 180px;
+        min-width: 400px;
+        max-width: 400px;
+        height: 100%;
+    }
+    button{
+        width: 100%;
+    }
+}
