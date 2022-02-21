@@ -1,7 +1,9 @@
 <p>products works!</p>
 <p>hola mundo Angular</p>
 <section class="products">
-    <app-product [product]="product" 
+    <app-product 
+    (addToCartClick)="addToCart($event)"
+    [product]="product" 
     *ngFor="let product of products"></app-product>
 </section>
 
